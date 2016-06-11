@@ -1,2 +1,4 @@
 # mensaje de un programador
 aprender lisp
+
+http://gcoronelc.blogspot.pe/2013/09/java-poo-leccion-01.html
