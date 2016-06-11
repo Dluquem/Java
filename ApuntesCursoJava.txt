@@ -1,0 +1,11 @@
+1. Aprendiendo a utilizar Git y Github.
+- Comandos del git.
+git log (para ver los commit que se realizaron)
+git pull
+git clone <URL del repositorio>
+git add . (realiza un commite a todos los archivos modifcados)
+git commit -m "comentario del commit ejecutado"
+git push origin master (copia los cambios a GitHub)
+git pull (actualiza los camvio de la web a la PC)
+
+IDE de desarrollo para Java : IntelliJ
