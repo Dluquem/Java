@@ -1,3 +1,5 @@
++Clase 1 11/06/2016
+http://gcoronelc.blogspot.pe/2013/09/java-poo-leccion-01.html
 1. Aprendiendo a utilizar Git y Github.
 - Comandos del git.
 git log (para ver los commit que se realizaron)
@@ -9,3 +11,43 @@ git push origin master (copia los cambios a GitHub)
 git pull (actualiza los camvio de la web a la PC)
 
 IDE de desarrollo para Java : IntelliJ
+
+
++Clase 2
+http://gcoronelc.blogspot.pe/2013/09/java-poo-leccion-02.html
+Diferenciasr entre "Componentes de Servicios" (Propiedades y Servicios) y "Componente Visual" p.e. Cuadro de texto (Propiedades y Comportamiento).
+1.Modificadores de Acceso (variables y metodos)
+Privado: Acceso solo desde la misma clase u objeto.
+Paquete: Acceso desde la misma clase y clases del mismo paquete.
+Protegido: Acceso desde la misma clase, clases del mismo paquete y clases hijas.
+Publico: Acceso todas las clases.
+
+*Si una clase no tiene clase padre, esta tiene clase padre por defecto OBJECT.
+
+2.Encapsulación:
+objetivo es que las variables del objeto sea privados, el acceso a ellas solo se debe realizar mediante sus metodos.
+Tipos de metodo:
+Lectura: getPropiedad la excepción para datos boolean es "isPropiedad".
+Escritura: setPropiedad
+Las cantidad de propiedades no necesariamente es la misma cantidad de variables (propiedad age se sustenta con la variable birthdate).
+
+3.Constructor
+Metodo especial para inicializar un objeto.
+Cuando la clase no define un contructor, Java le agrega de manera automática un contructor llamado "constructor por defecto" (no tiene ningun parametro, los contructores se diferencian de un metodo porque no devuelve un valor.
+Una clase puede definir varios contructores en ese caso se dice que el constructor esta sobrecargado.
+4.Desctructor
+El Recolector de basura pasa por la memoria y libera o elimina aquellos objetos que no esten referenciados. Antes de eliminar llama al Destructor del objeto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
