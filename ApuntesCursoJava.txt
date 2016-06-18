@@ -38,6 +38,10 @@ Una clase puede definir varios contructores en ese caso se dice que el construct
 4.Desctructor
 El Recolector de basura pasa por la memoria y libera o elimina aquellos objetos que no esten referenciados. Antes de eliminar llama al Destructor del objeto.
 
+5.Sobrecarga
+Son metodos que tiene el mismo nombre pero diferentes parametros (cantidad, tipo, posicion)
+Las mejores librerias: www.jidesoft.com
+
 
 
 
